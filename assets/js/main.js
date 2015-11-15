@@ -288,12 +288,11 @@ var getContact = function(jsonLocation) {
 		extracted_information.push(information.mobile);
 		extracted_information.push(information.city + ", " + information.state + ", " + information.country);
 
-
 		var contactDiv = document.getElementById('contact').children[0];
 
 		for(var i = 0; i < extracted_information.length; i ++) {
 			// child(0) is DIV
-			contactDIV.children[i + 1].childNodes[1].nodeValue = extracted_information[i];
+			contactDiv.children[i + 1].childNodes[1].nodeValue = extracted_information[i];
 		}
 	}
 	doAJAX("GET", window.location.origin + window.location.pathname + jsonLocation, "", onResponse);
