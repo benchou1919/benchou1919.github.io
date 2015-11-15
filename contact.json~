@@ -1,13 +1,13 @@
 {
-  "name": "John Snow",
+  "name": "Michael Jackson",
   "mobile": "+886-912-345-678",
   "fax": "+886-913-579-246",
-  "email": "Snow.Bastard@gmail.com",
+  "email": "michael.X.jackson@gmail.com",
   "address": {
     "line1": "No. 8, Sec. 2, Nanjing E. Rd.",
     "line2": ""
   },
-  "city": "Casterly Rock",
-  "state": "Riverrun",
-  "country": "Seven Kindoms"
+  "city": "New York",
+  "state": "New York",
+  "country": "U.S."
 }
